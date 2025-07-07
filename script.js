@@ -348,7 +348,6 @@ function renderPokemonGrid() {
 
 
 
-
 // --- Llamar a la función para precargar los datos básicos y renderizar el índice al inicio ---
 // Es vital que esto se llame una vez que el script está cargado y listo.
 fetchAllPokemonNamesAndIds();
