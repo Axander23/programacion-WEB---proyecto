@@ -1,0 +1,36 @@
+/* shared/css/sobres.css */
+.imagenSobre {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 200px;
+    height: 250px;
+}
+
+.action-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin: 0 auto 18px auto;
+    display: block;
+    transition: background 0.2s;
+}
+.action-button:hover {
+    background-color: #388e3c;
+}
+
+.pack-results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    gap: 18px;
+    margin-top: 18px;
+}
+
+.pack-results-grid .pokemon-card {
+    background: #fffbe7;
+    border: 2px solid #ffd600;
+    box-shadow: 0 2px 8px rgba(255,214,0,0.08);
+}
